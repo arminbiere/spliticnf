@@ -1,0 +1,4 @@
+spliticnf: spliticnf.c makefile
+	@COMPILE@ -o $@ $<
+clean:
+	rm -f makefile spliticnf
